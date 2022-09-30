@@ -1,0 +1,35 @@
+{
+    "name": "dipantry/laravel-deployer",
+    "description": "Laravel Helper Package for deploying project to server",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Dipantry\\LaravelDeployer\\": "src/"
+        }
+    },
+	"autoload-dev": {
+		"psr-4": {
+			"Dipantry\\LaravelDeployer\\Tests": "tests/"
+		}
+	},
+    "authors": [
+        {
+			"role": "Developer",
+			"name": "Auriga Aristo",
+			"email": "aurigaaristo@gmail.com",
+			"homepage": "https://aurigaaristo.com"
+		}
+    ],
+    "minimum-stability": "dev",
+    "require": {
+		"php": "^8.0",
+		"illuminate/support": "^9.0.0"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "^9.1",
+		"php-coveralls/php-coveralls": "^2.1",
+		"orchestra/testbench": "^7.0"
+	},
+	"prefer-stable": true
+}
